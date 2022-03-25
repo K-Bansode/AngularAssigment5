@@ -1,0 +1,81 @@
+.userProfile{
+    height: 15Vh;
+    width:25vw;
+    background-color:rgb(240, 240, 240);
+    display: flex;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+   
+   
+    
+}
+#name{
+    font-size:2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(43, 38, 38);
+    
+}
+.userInfo
+{
+    float: right;
+    display: table-cell;
+    padding-left: 2vw;
+}
+img{
+    margin-top: 1vh;
+    border-radius: 20vh;
+}
+
+.mail{
+    font-size:2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    color:rgb(43, 38, 38);
+}
+.success{
+    height: 1vh;
+    width: 0.5vw;
+    border-radius: 60%;
+    background-color:green;
+}
+.fail{
+    height: 1vh;
+    width: 0.5vw;
+    border-radius: 60%;
+    background-color:red;
+}
+.s{
+    margin-left: 1.5vw;
+}
+.cont{
+    display: flex;
+    margin-left: 7vw;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    
+}
+#btn1{
+    background-color: blue;
+    color:aliceblue;
+    float: right;
+}
+
+button{
+    background-color:blue;
+    float: right;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 5vh;
+    width: 7vw;
+    margin-top: 3vh;
+    border-radius: 1vh;
+    
+}
+#section{
+    height: 5vh;
+    width: 90vw;
+    margin-left: 4vw;
+
+}

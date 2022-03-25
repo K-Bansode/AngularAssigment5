@@ -1,0 +1,67 @@
+<html>
+    <body>
+<div class="main">
+<span class="header">User<a>Add User</a><a routerLink="user-list">Users</a></span>
+    <div class="container"> 
+        <form #userData="ngForm"(ngSubmit)="ngsubmit(userData.value)">
+            <table>
+                <tr style="margin-left: 52%;" class="form-group">
+                    <td> First Name</td>
+                    <td><input required #name="ngModel" type="text" name="firstname" ngModel  class="form-control"  class="form-control"  class="form-control" placeholder="First Name" >
+                        <span *ngIf="name.invalid && name.touched" class="error">name is required</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td> last Name</td>
+                    <td><input   required #name="ngModel" type="text" name="lastName" ngModel  class="form-control"  class="form-control"  class="form-control" placeholder="last Name" ></td>
+                </tr>
+                <tr  class="form-group">
+                    <td>Email</td>
+                    <td><input type="text" name="email" ngModel  class="form-control"  class="form-control"  class="form-control" placeholder="Email" ></td>
+                </tr>
+
+                <tr  class="form-group">
+                    <td>Phone</td>
+                    <td><input type="text" name="phone" ngModel  class="form-control"  class="form-control" placeholder="Phone" ></td>
+                </tr>
+
+                <tr  class="form-group">
+                    <td>Role</td>
+                    <td> <select name="role" id="role" ngModel  class="form-control"  class="form-control" placeholder="select role" >
+                             <option value="" disabled selected hidden>Select role</option>
+                            <option value="hr">hr</option>
+                            <option value="manager">manager</option>
+                            <option value="engineer">engineer</option>
+                            <option value="admin">admin</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr  class="form-group">
+                    <td>Status</td>
+                    <td> <select name="status" id="staus" ngModel  class="form-control"  class="form-control" placeholder="select status" >
+                        <option value="" disabled selected hidden>Select staus</option>
+                       <option value="active">active</option>
+                       <option value="inactive">inactive</option>
+                   </select>
+               </td>                </tr>
+
+                <tr  class="form-group">
+                    <td>Password</td>
+                    <td><input type="password" name="password" ngModel  class="form-control"  class="form-control" placeholder="Password" ></td>
+                </tr>
+
+                <tr  class="form-group">
+                    <td>Confirm Password</td>
+                    <td><input type="password" name="cnfpPass" ngModel  class="form-control"  class="form-control"  class="form-control" placeholder="confirm Password" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit" id="saveButton">Save</button></td>
+                </tr>
+        </table>
+        </form>   
+    </div>
+</div>
+    </body>
+    </html>
+<router-outlet></router-outlet>

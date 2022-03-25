@@ -1,0 +1,39 @@
+
+.main{
+    height:75vh;
+    width:70vw;
+    background-color:rgb(240,240,240);
+   display: inline-flexbox;
+   margin-left: 15vw;
+   margin-top: 15vh;
+}
+.container{
+    height:60vh;
+    width:60vw;
+    background-color: white;
+    margin-left: 5vw;
+}
+#saveButton{
+    background-color: blue;
+    color: white;
+    margin-top: 4vh;
+    height: 5vh;
+    width:auto;
+    margin-left: 2vw;
+    
+}
+td{
+    padding-top:3vh;
+}
+input{
+    width:30vw;
+}
+a{
+    float: right;
+    margin-left: 2vw;
+    margin-bottom: 30vh;
+}
+select{
+    width: 30vw;
+    height: 5vh;
+}

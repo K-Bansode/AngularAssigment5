@@ -1,0 +1,21 @@
+
+
+
+<div id="section">
+    <button >+ Add User</button>
+        
+</div>
+<div class="cont">
+<div class="userProfile" *ngFor="let user of users">
+    <div class="UserProfileImage">
+        <img src="/assets/images/user.png" width="100" height="100"/>
+    </div>
+    <div class="userInfo">
+    <p id="name">{{user.firstname}} {{user.lastName}}       </p>
+    <p class="mail">{{user.email}}</p>
+    <div [ngClass]="messege"><p class="s">{{user.status}}</p></div>  
+    </div>
+ 
+</div>
+</div>
+<router-outlet></router-outlet>

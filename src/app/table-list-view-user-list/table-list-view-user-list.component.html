@@ -1,0 +1,32 @@
+<html>
+	<body>
+<div id="section">
+    <button (click)="clickFun()" class="addUser">Add User</button>
+</div>
+<div class="cont">
+	<label for="search">Filter :</label>
+	<input type="email" class="form-control" id="search" placeholder="Filter" [(ngModel)]="filterString">
+<table>
+	<tr>
+	<th>ID</th>
+	<th>Name</th>
+	<th>Email</th>
+    <th>Role</th>
+	<th>status</th>
+    <th>Action</th>
+	</tr>
+	<tr *ngFor="let user of users | filter:filterString">
+	<td>{{user.id}}</td>
+	<td>{{user.firstname}}</td>
+	<td>{{user.email}}</td>
+    <td>{{user.role}}</td>
+	<td>{{user.status}}</td>
+    <td> <a routerLink="/edit-user-compnent/{{user.id}}"><button id="edit">Edit</button></a>
+		<button id="delete" (click)="deleteUser(user.id)">Delete</button>
+</td>
+	<tr>
+</table>
+</div>
+</body>
+</html>
+

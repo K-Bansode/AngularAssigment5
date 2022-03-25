@@ -1,0 +1,310 @@
+{
+  "userInfo": [
+    {
+      "firstname": "ganesh",
+      "lastName": "santan",
+      "email": "ganesh@gmail.com",
+      "phone": "75451542",
+      "role": "admin",
+      "status": "active",
+      "password": "1234",
+      "cnfpPass": "1234",
+      "id": 9
+    },
+    {
+      "firstname": "dipak",
+      "lastName": "rokde",
+      "email": "dipakrokde1411@gmail.com",
+      "phone": "45124562",
+      "role": "hr",
+      "status": "active",
+      "password": "hghf",
+      "cnfpPass": "g",
+      "id": 10
+    },
+    {
+      "firstname": "tukaram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 11
+    },
+    {
+      "firstname": "parmeshwar",
+      "lastName": null,
+      "email": "parmeshwarc505@gmail.com",
+      "phone": "09604603773",
+      "role": "admin",
+      "status": "active",
+      "password": "458236",
+      "cnfpPass": null,
+      "id": 12
+    },
+    {
+      "firstname": "govind",
+      "lastName": "tokalwad",
+      "email": "gnt@gmail.com",
+      "phone": "1234",
+      "role": "manager",
+      "status": "active",
+      "password": "458236",
+      "cnfpPass": "458236",
+      "id": 13
+    },
+    {
+      "firstname": "tukaram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 14
+    },
+{
+      "firstname": "tukaram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 15
+    },
+{
+      "firstname": "tukaram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 15
+    },
+{
+      "firstname": "rohit",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 17
+    },
+{
+      "firstname": "raj",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 18
+    },
+{
+      "firstname": "ram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 19
+    },
+{
+      "firstname": "nikhil",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 20
+    },
+{
+      "firstname": "arush",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 21
+    },
+{
+      "firstname": "andy",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 22
+    },{
+      "firstname": "ram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 23
+    },
+{
+      "firstname": "Shyam",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 24
+    },{
+      "firstname": "Krushna",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 25
+    },{
+      "firstname": "pintu",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 26
+    },{
+      "firstname": "tukaram",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 27
+    },{
+      "firstname": "niranjan",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 28
+    },{
+      "firstname": "sachin",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 29
+    },{
+      "firstname": "dravid",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 30
+    },{
+      "firstname": "rahul",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 31
+    },{
+      "firstname": "surykumar",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 32
+    },{
+      "firstname": "dev",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 33
+    },{
+      "firstname": "ajinky",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 34
+    },{
+      "firstname": "vijay",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 35
+    },{
+      "firstname": "jay",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 36
+    },{
+      "firstname": "rahul",
+      "lastName": "chavan",
+      "email": "tukaram1299@gmail.com",
+      "phone": "85451236",
+      "role": "admin",
+      "status": "active",
+      "password": "sas",
+      "cnfpPass": "ddd",
+      "id": 37
+    }
+
+  ]
+}

@@ -1,0 +1,59 @@
+
+<div class="main">
+    <span class="header">User<a>Add User</a><a routerLink="user-list">Users</a></span>
+        <div class="container"> 
+            <form [formGroup]="editUser" (ngSubmit)="CollectionUser()">
+                <table>
+                    <tr style="margin-left: 52%;" class="form-group">
+                        <td> First Name</td>
+                        <td><input type="text" formControlName="firstname" class="form-control" placeholder="firstname" ></td>
+                    </tr>
+                    
+                    <tr class="form-group">
+                        <td>Email</td>
+                        <td><input type="text" formControlName="email" class="form-control" placeholder="Email"></td>
+                    </tr>
+    
+                    <tr class="form-group">
+                        <td>Phone</td>
+                        <td><input type="text" formControlName="phone"class="form-control" placeholder="Phone"></td>
+                    </tr>
+    
+                    <tr class="form-group">
+                        <td>Role</td>
+                        <td> <select formControlName="role" id="role" class="form-control" placeholder="select role">
+                                 <option value="" disabled selected hidden>Select role</option>
+                                <option value="hr">hr</option>
+                                <option value="manager">manager</option>
+                                <option value="engineer">engineer</option>
+                                <option value="admin">admin</option>
+                            </select>
+                        </td>
+                    </tr>
+    
+                    <tr class="form-group">
+                        <td>Status</td>
+                        <td> <select formControlName="status" id="staus" class="form-control" placeholder="select status">
+                            <option value="" disabled selected hidden>Select staus</option>
+                           <option value="active">active</option>
+                           <option value="inactive">inactive</option>
+                       </select>
+                   </td>                </tr>
+    
+                    <tr class="form-group">
+                        <td>Password</td>
+                        <td><input type="text" formControlName="password" class="form-control" placeholder="Password"></td>
+                    </tr>
+    
+                   
+                    <tr>
+                        <td colspan="2"><button type="submit" id="saveButton">Edit</button></td>
+                    </tr>
+            </table>
+            </form>   
+        </div>
+    </div>
+
+
+    
+    <router-outlet></router-outlet>

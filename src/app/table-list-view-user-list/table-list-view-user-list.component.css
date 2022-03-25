@@ -1,0 +1,53 @@
+
+#section{
+    height: 5vh;
+    width: 90vw;
+    margin-left: 4vw;
+
+}
+
+.addUser{
+    background-color:rgb(0, 238, 255);
+    float: right;
+    color: rgb(206, 18, 223);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 5vh;
+    width: 7vw;
+    margin-top: 3vh;
+    border-radius: 1vh;
+    
+}
+.cont{
+    margin-top: 10vh;
+}
+td{
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+th{
+    padding-left: 10vw;
+   
+}
+
+#delete{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height:4vh;
+    width:5vw;
+}
+#edit{
+    background-color: rgb(0, 113, 128);
+    color: white;
+    font-weight: bold;
+    height:4vh;
+    width:5vw;
+    margin-right: 0.5vw;
+}
+body{
+    background-color:skyblue;
+}
+.form-control{
+    width: 20%;
+}
