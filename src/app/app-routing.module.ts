@@ -6,6 +6,7 @@ import { EditUserCompnentComponent } from './edit-user-compnent/edit-user-compne
 import { TableListViewUserListComponent } from './table-list-view-user-list/table-list-view-user-list.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { FilterComponent } from './filter/filter.component';
+import { DashboardWidgetComponent } from './dashboard-widget/dashboard-widget.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
     path:'app-filter',
     component:FilterComponent
 
+  },
+  {
+    path:'app-dashboard-widget',
+    component:DashboardWidgetComponent
   }
 ];
 

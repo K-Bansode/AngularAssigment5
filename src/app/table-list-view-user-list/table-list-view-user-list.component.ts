@@ -46,6 +46,7 @@ export class TableListViewUserListComponent implements OnInit {
   clickFun(){
     
     this.router.navigate(['add-user-component']);
+    
   }
   deleteUser(id:any){
     this.users.splice(id-1,1)

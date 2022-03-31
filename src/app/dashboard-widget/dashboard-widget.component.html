@@ -1,0 +1,27 @@
+
+
+
+<div class="container-fluid main">
+    <p class="h3">Dashboard</p>
+<div class="row">
+        <div class=" col-md-3 col-sm-5 block ">
+            <span id="space"><p>Total User</p> <p>{{collection.length}} </p></span>
+            <span class="totalUser"> <i class="fa fa-user" ></i></span>
+        </div>
+        <div class=" col-md-3 col-sm-5 block ">
+            <span id="space"><p>Active  User</p> <p>{{activeUser()}} </p></span>
+            <span class="activeUser"> <i class="fa fa-user" ></i></span>
+        </div>
+        <div class=" col-md-3 col-sm-5 block ">
+            <span id="space"><p>Inactive   User</p> <p>{{inactiveUser()}} </p></span>
+            <span class="inactiveUser"> <i class="fa fa-user" ></i></span>
+        </div>
+    
+  </div>
+</div>
+
+<div id="divChart">
+
+    <canvas id="myChart"> </canvas>
+    </div>
+

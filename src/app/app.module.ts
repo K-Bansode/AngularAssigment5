@@ -16,6 +16,10 @@ import{UsersDataService} from './services/users-data.service';
 import { TableListViewUserListComponent } from './table-list-view-user-list/table-list-view-user-list.component';
 import { FilterPipe } from './AppPipes/filter.pipe';
 import { FilterComponent } from './filter/filter.component';
+import { DashboardWidgetComponent } from './dashboard-widget/dashboard-widget.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,14 +29,16 @@ import { FilterComponent } from './filter/filter.component';
     UserListComponent,
     TableListViewUserListComponent,
     FilterPipe,
-    FilterComponent
+    FilterComponent,
+    DashboardWidgetComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+   
   ],
   providers: [UsersDataService],
   bootstrap: [AppComponent]
